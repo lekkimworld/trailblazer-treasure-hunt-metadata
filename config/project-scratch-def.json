@@ -1,0 +1,10 @@
+{
+  "orgName": "Basecamp Demo",
+  "edition": "Enterprise",
+  "features": ["PersonAccounts"],
+  "country": "DK",
+  "language": "en_US",
+  "settings": {
+      
+  }
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>jdoe@example.com</contactEmail>
+    <label>Basecamp Questionnaire OAuth</label>
+    <oauthConfig>
+        <callbackUrl>https://trailblazer-treasure-hunt-dev.herokuapp.com/oauth/callback</callbackUrl>
+        <isAdminApproved>false</isAdminApproved>
+        <scopes>Basic</scopes>
+        <scopes>Api</scopes>
+    </oauthConfig>
+    <permissionSetName>Basecamp_Survey_Admin</permissionSetName>
+</ConnectedApp>

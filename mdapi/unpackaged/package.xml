@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>Basecamp_LotteryWinner_LCC</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>Basecamp_QuestionTrigger</members>
+        <members>Basecamp_QuestionnaireAnswerTrigger</members>
+        <members>Basecamp_QuestionnaireResponseTrigger</members>
+        <members>Basecamp_VersionTrigger</members>
+        <name>ApexTrigger</name>
+    </types>
+    <types>
+        <members>Basecamp_LotteryWinner</members>
+        <name>AuraDefinitionBundle</name>
+    </types>
+    <types>
+        <members>Basecamp_Questionnaire_OAuth</members>
+        <name>ConnectedApp</name>
+    </types>
+    <types>
+        <members>explorer_bagde</members>
+        <name>ContentAsset</name>
+    </types>
+    <types>
+        <members>Basecamp_Questionaire</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
+        <members>Contact.Company_Name__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Basecamp_Answer__c</members>
+        <members>Basecamp_Question__c</members>
+        <members>Basecamp_Questionnaire_Answer__c</members>
+        <members>Basecamp_Questionnaire_Response__c</members>
+        <members>Basecamp_Questionnaire__c</members>
+        <members>Basecamp_Version_Activation__e</members>
+        <members>Basecamp_Version__c</members>
+        <members>PersonAccount</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Basecamp_Answer__c</members>
+        <members>Basecamp_Question__c</members>
+        <members>Basecamp_Questionnaire__c</members>
+        <members>Basecamp_Version__c</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>Account_Record_Page</members>
+        <members>Basecamp_Questionaire_UtilityBar</members>
+        <members>Question_Record_Page</members>
+        <members>Questionaire_Record_Page</members>
+        <members>Questionnaire_Response_Record_Page</members>
+        <members>Version_Record_Page</members>
+        <name>FlexiPage</name>
+    </types>
+    <types>
+        <members>Basecamp_Send_Platform_Event_on_Version_Activation</members>
+        <name>Flow</name>
+    </types>
+    <types>
+        <members>Basecamp_Answer__c-Answer Layout</members>
+        <members>Basecamp_Question__c-Question Layout</members>
+        <members>Basecamp_Questionnaire_Answer__c-Questionnaire Answer Layout</members>
+        <members>Basecamp_Questionnaire_Response__c-Questionnaire Response Layout</members>
+        <members>Basecamp_Questionnaire__c-Questionaire Layout</members>
+        <members>Basecamp_Version__c-Version Layout</members>
+        <members>PersonAccount-Person Account Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>Basecamp_Survey_Admin</members>
+        <name>PermissionSet</name>
+    </types>
+    <version>46.0</version>
+</Package>

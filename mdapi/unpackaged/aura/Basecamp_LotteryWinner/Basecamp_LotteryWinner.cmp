@@ -1,0 +1,17 @@
+<aura:component controller="Basecamp_LotteryWinner_LCC" implements="flexipage:availableForAllPageTypes,force:hasRecordId">
+    <aura:attribute name="recordId" type="String" />
+    <aura:handler name="init" value="{!this}" action="c.onInit" />
+    <aura:attribute name="handle1" type="String" access="PRIVATE" />
+    <aura:attribute name="handle2" type="String" access="PRIVATE" />
+    <aura:attribute name="handle3" type="String" access="PRIVATE" />
+    <aura:attribute name="handles" type="Object[]" access="PRIVATE" />
+    <aura:attribute name="feedback" type="String" access="PRIVATE" />
+    
+    <div class="slds-card slds-p-around--small">
+        <button class="slds-button slds-button_neutral" onclick="{!c.drawWinner}">Draw winners</button>
+        <div class="headline slds-m-top--small">
+	        {!v.feedback}
+        </div>
+    </div>
+	
+</aura:component>
