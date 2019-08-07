@@ -15,5 +15,5 @@ sfdx force:mdapi:deploy -d ./mdapi/unpackaged -w 100 -u $SCRIPT_SCRATCH_ORG_USER
 sfdx force:user:permset:assign -n Basecamp_Survey_Admin -u $SCRIPT_SCRATCH_ORG_USERID
 sfdx force:org:open -u $SCRIPT_SCRATCH_ORG_USERID
 sfdx force:user:password:generate -u $SCRIPT_SCRATCH_ORG_USERID --json | jq -r ".result.password"
-ehco "***** >>>> Be sure to set IP Relaxation on the ConnectedApp to 'Relax IP restrictions' to enable use of the ConnectedApp without Security Token"
+echo "***** >>>> Be sure to set IP Relaxation on the ConnectedApp to 'Relax IP restrictions' to enable use of the ConnectedApp without Security Token"
 ```
