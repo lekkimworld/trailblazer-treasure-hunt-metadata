@@ -29,6 +29,7 @@
     </types>
     <types>
         <members>Contact.Company_Name__c</members>
+        <members>Account.External_ID__c</members>
         <name>CustomField</name>
     </types>
     <types>
