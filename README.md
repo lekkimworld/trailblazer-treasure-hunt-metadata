@@ -5,7 +5,8 @@
 * jq (https://stedolan.github.io/jq/)
 
 ## Deploy metadata ##
-**Please Note:** Be sure to have a Dev Hub set as default or append 
+**Please Note:** Be sure to have a Dev Hub set as default or append `--targetdevhubusername` with the username of the org to use as a DevHub to the `force:org:create` command.
+
 ```
 SCRIPT_SCRATCH_ORG_USERID=$(sfdx force:org:create -a basecamp-demo -f config/project-scratch-def.json --json | jq -r ".result.username")
 echo "Username for scratch org: $SCRIPT_SCRATCH_ORG_USERID"
